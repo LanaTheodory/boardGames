@@ -1,0 +1,20 @@
+
+*{
+    margin:0px;
+    padding:0px
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    color:white;
+    background-image: linear-gradient(yellow,rgb(84, 255, 84),rgb(112, 219, 255),yellow,rgb(84, 255, 84),rgb(112, 219, 255),yellow,rgb(84, 255, 84),rgb(112, 219, 255),yellow,rgb(84, 255, 84),rgb(112, 219, 255),yellow,rgb(84, 255, 84));
+}
+
+div{
+    padding-top: 13rem;
+    background-color: rgba(122, 255, 88, 0.1);
+}

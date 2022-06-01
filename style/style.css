@@ -1,0 +1,219 @@
+
+@font-face {
+    font-family: thin;
+    src: url("../fonts/Roboto-Thin.ttf");
+}
+
+@font-face {
+    font-family: light-italic;
+    src: url("../fonts/Roboto-LightItalic.ttf");
+}
+@font-face {
+    font-family:bold ;
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+
+*{
+    margin:0px;
+    padding:0px;
+   
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color:#1F2937;
+    padding:20px 200px;
+    color:white;
+    height: 400px;
+    
+}
+
+header nav{ 
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+header nav h4{
+    flex:1;
+}
+
+header nav ul{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    justify-items: flex-end;
+    list-style: none;
+}
+
+header nav ul li a{
+    padding:5px;
+    text-decoration: none !important;
+    color:white;
+}
+
+
+header nav ul li:hover{
+    background-color: rgb(31, 31, 255);
+    border-radius: 5px;
+}
+
+
+#subHeader{
+    display:flex;
+    justify-content: space-between;
+    justify-items: space-between;
+    align-items: center;
+    /* padding:10px; */
+    /* margin:50px; */
+    padding-top: 75px;
+    
+}
+
+#info button{
+    border-radius: 5px;
+    color:white;
+    width:70px;
+    height: 30px;
+    margin-top: 5px;
+    background-color:rgb(0, 115, 255);
+    border: 1pc transparent
+    
+}
+
+#subHeader #image{
+    /* background-color: grey; */
+    align-content: center;
+    height:175px;
+    width:260px;
+    flex:1;
+    margin-left:60px;
+}
+
+#subHeader #info{
+  
+    flex:1;
+
+    padding-right:50px;
+    /* font-weight:bolder; */
+    /* font-size: 48px; */
+}
+
+#subHeader #info h1{
+    font-family: bold;
+    /* padding: 100px; */
+    font-size: 48px;
+}
+
+#services{
+    padding:50px;
+    text-align: center;
+}
+
+#services section{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 50px 200px;
+    margin:0px 120px;
+}
+
+#services section img{
+    border-radius: 10px;
+    /* border:2px solid rgb(0, 115, 255); */
+    width: 90px;
+    height: 90px;
+}
+
+#services section div:hover{
+    border-radius: 10px;
+    border:2px solid rgb(0, 115, 255);
+    background-color:rgba(0, 115, 255, 0.176);
+    cursor: pointer;
+}
+
+
+
+.smallTxt{
+    /* font-size:small; */
+    /* font-weight:100; */
+    font-family: thin;
+}
+
+#testimonials{
+    /* flex:1; */
+    background-color: #1f293753;
+    /* height: 150px; */
+    align-content: center;
+    padding: 100px;
+    margin:20px;
+    border-radius:15px;
+    /* color:rgb(0, 115, 255);  */
+
+  
+}
+
+#testimonials h3 {
+    text-align: center;
+    font-weight: lighter;
+    font-family: light-italic;
+}
+
+#signup{
+    color: white;
+    padding-left:230px
+
+}
+
+#signup section{
+    
+    margin:100px;
+    padding:50px;
+    background-color:rgb(0, 115, 255); 
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 500px;
+}
+
+
+
+#signup section button{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    
+    color: white;
+    padding:5px
+}
+footer{
+    background-color:#1F2937;
+    position:relative;
+    height: 50px;
+    color: white;
+    text-align: center;
+    padding-top:22px
+}
+
+
+button:hover{
+    cursor: pointer;
+    box-shadow: #e0e6ee!important;
+}
+
+#logoDiv{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: fit-content;
+    padding:5px;
+    
+}
